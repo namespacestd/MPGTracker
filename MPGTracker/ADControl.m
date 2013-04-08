@@ -23,7 +23,7 @@
 
 - (IBAction)submit {
     self.display.text = [NSString  stringWithFormat: @"%@%@%@", self.username.text, @",", self.password.text];
-    if([self.username.text isEqualToString:@"test"] && [self.password.text isEqualToString:@"test"]){
+    if(true || ([self.username.text isEqualToString:@"test"] && [self.password.text isEqualToString:@"test"])){
         ADMainScreenTabViewController *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"mainscreentab"];
         [self.navigationController pushViewController:controller animated:YES];
         UIBarButtonItem *logOut = [[UIBarButtonItem alloc] initWithTitle:@"Log Out" style:UIBarButtonItemStyleBordered target:nil action:nil];

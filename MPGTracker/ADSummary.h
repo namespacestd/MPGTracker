@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
+#import "CoreLocationController.h"
 
-@interface ADSummary : UIViewController<UIAccelerometerDelegate, MFMailComposeViewControllerDelegate>{
+@interface ADSummary : UIViewController<UIAccelerometerDelegate, MFMailComposeViewControllerDelegate,
+    CoreLocationControllerDelegate>{
     UIAccelerometer* accel;
     NSTimer* timer;
     double cTime;
@@ -20,8 +22,20 @@
     NSMutableArray* y_values;
     NSMutableArray* z_values;
     NSMutableArray* times;
+    
+    NSMutableArray* GPSLocation;
+    NSMutableArray* GPSSpeed;
+        
     bool startPressed;
+    bool paused;
+        
+    CoreLocationController* CLController;
+    IBOutlet UILabel *latitude;
+    IBOutlet UILabel *longitude;
+    IBOutlet UILabel *speed;
 }
+
+@property (nonatomic, retain) CoreLocationController* CLController;
 
 @end
 

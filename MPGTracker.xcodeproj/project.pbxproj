@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE2C4ED516BB873B0010F8D3 /* ADRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE2C4ED416BB873B0010F8D3 /* ADRegisterViewController.m */; };
+		BE79C99E16D6A73A00B5F766 /* ADSavedDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE79C99D16D6A73A00B5F766 /* ADSavedDataViewController.m */; };
 		BE7D1E5516CCA3610058F860 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7D1E5416CCA3610058F860 /* MessageUI.framework */; };
 		BE7E061416C36D150047F5C0 /* ADTable.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7E061316C36D150047F5C0 /* ADTable.m */; };
 		BE7F39EC16BB753C006FC030 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7F39EB16BB753C006FC030 /* UIKit.framework */; };
@@ -23,6 +24,8 @@
 		BE7F3A0816BB753C006FC030 /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7F3A0716BB753C006FC030 /* ADViewController.m */; };
 		BE7F3A1016BB7586006FC030 /* ADControl.m in Sources */ = {isa = PBXBuildFile; fileRef = BE7F3A0F16BB7586006FC030 /* ADControl.m */; };
 		BE7F3A1216BB7CF4006FC030 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE7F3A1116BB7CF4006FC030 /* images.jpg */; };
+		BE84382316D5E68300477472 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE84382216D5E68300477472 /* CoreLocation.framework */; };
+		BE84382616D5E99A00477472 /* CoreLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE84382516D5E99A00477472 /* CoreLocationController.m */; };
 		BEADE9D616BF67D5003C28E0 /* feedback.png in Resources */ = {isa = PBXBuildFile; fileRef = BEADE9D516BF67D5003C28E0 /* feedback.png */; };
 		BEADE9D916BF6870003C28E0 /* stats.png in Resources */ = {isa = PBXBuildFile; fileRef = BEADE9D816BF6870003C28E0 /* stats.png */; };
 		BEBD091A16BF53CD008269CC /* ADMainScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = BEBD091916BF53CD008269CC /* ADMainScreen.m */; };
@@ -34,6 +37,8 @@
 /* Begin PBXFileReference section */
 		BE2C4ED316BB873B0010F8D3 /* ADRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADRegisterViewController.h; sourceTree = "<group>"; };
 		BE2C4ED416BB873B0010F8D3 /* ADRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADRegisterViewController.m; sourceTree = "<group>"; };
+		BE79C99C16D6A73A00B5F766 /* ADSavedDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADSavedDataViewController.h; sourceTree = "<group>"; };
+		BE79C99D16D6A73A00B5F766 /* ADSavedDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADSavedDataViewController.m; sourceTree = "<group>"; };
 		BE7D1E5416CCA3610058F860 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		BE7E061216C36D150047F5C0 /* ADTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTable.h; sourceTree = "<group>"; };
 		BE7E061316C36D150047F5C0 /* ADTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTable.m; sourceTree = "<group>"; };
@@ -56,6 +61,9 @@
 		BE7F3A0E16BB7586006FC030 /* ADControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADControl.h; sourceTree = "<group>"; };
 		BE7F3A0F16BB7586006FC030 /* ADControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADControl.m; sourceTree = "<group>"; };
 		BE7F3A1116BB7CF4006FC030 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		BE84382216D5E68300477472 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BE84382416D5E99A00477472 /* CoreLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLocationController.h; sourceTree = "<group>"; };
+		BE84382516D5E99A00477472 /* CoreLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreLocationController.m; sourceTree = "<group>"; };
 		BEADE9D516BF67D5003C28E0 /* feedback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feedback.png; sourceTree = "<group>"; };
 		BEADE9D816BF6870003C28E0 /* stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stats.png; sourceTree = "<group>"; };
 		BEBD091816BF53CD008269CC /* ADMainScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMainScreen.h; sourceTree = "<group>"; };
@@ -72,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE84382316D5E68300477472 /* CoreLocation.framework in Frameworks */,
 				BE7D1E5516CCA3610058F860 /* MessageUI.framework in Frameworks */,
 				BE7F39EC16BB753C006FC030 /* UIKit.framework in Frameworks */,
 				BE7F39EE16BB753C006FC030 /* Foundation.framework in Frameworks */,
@@ -85,6 +94,7 @@
 		BE7F39DC16BB753C006FC030 = {
 			isa = PBXGroup;
 			children = (
+				BE84382216D5E68300477472 /* CoreLocation.framework */,
 				BE7D1E5416CCA3610058F860 /* MessageUI.framework */,
 				BE7F39F116BB753C006FC030 /* MPGTracker */,
 				BE7F39EA16BB753C006FC030 /* Frameworks */,
@@ -116,9 +126,13 @@
 				BE7F39FA16BB753C006FC030 /* ADAppDelegate.h */,
 				BE7F39FB16BB753C006FC030 /* ADAppDelegate.m */,
 				BE7F3A0316BB753C006FC030 /* MainStoryboard.storyboard */,
+				BE79C99C16D6A73A00B5F766 /* ADSavedDataViewController.h */,
+				BE79C99D16D6A73A00B5F766 /* ADSavedDataViewController.m */,
 				BE7E061216C36D150047F5C0 /* ADTable.h */,
 				BE7E061316C36D150047F5C0 /* ADTable.m */,
 				BEBD092516BF5ECE008269CC /* ADSummary.h */,
+				BE84382416D5E99A00477472 /* CoreLocationController.h */,
+				BE84382516D5E99A00477472 /* CoreLocationController.m */,
 				BEBD092616BF5ECE008269CC /* ADSummary.m */,
 				BEBD091C16BF5A1A008269CC /* ADMainScreenTabViewController.h */,
 				BEBD091D16BF5A1A008269CC /* ADMainScreenTabViewController.m */,
@@ -233,6 +247,8 @@
 				BEBD091E16BF5A1A008269CC /* ADMainScreenTabViewController.m in Sources */,
 				BEBD092716BF5ECE008269CC /* ADSummary.m in Sources */,
 				BE7E061416C36D150047F5C0 /* ADTable.m in Sources */,
+				BE84382616D5E99A00477472 /* CoreLocationController.m in Sources */,
+				BE79C99E16D6A73A00B5F766 /* ADSavedDataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
